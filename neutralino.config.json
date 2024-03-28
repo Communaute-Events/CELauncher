@@ -8,8 +8,10 @@
   "enableNativeAPI": true,
   "nativeAllowList": [
     "events.on",
-    "app.exit",
-    "debug.log"
+    "app.*",
+    "debug.log",
+    "window.*",
+    "os.*"
   ],
   "exportAuthInfo": false,
   "logging": {
