@@ -1,30 +1,41 @@
-<h1 style="display: inline-block;"> <img src=".github/assets/logo.png" style="width:30px;"> Neutralino + Svelte</h1>
-
-<div align="center">
-    <img src=".github/assets/window.png" style="width:75%;">
-</div>
-
+![image](https://github.com/Communaute-Events/CELauncher/assets/154077770/6be89cbf-52ce-442b-b0df-2f0e12e7c228)
 ---
 
-This is a starter template for neutralino that uses **Vite** and **Svelte**. You can directly write your app using svelte!
+CELauncher is a lightweight and fast custom event mods installer built with [Neutralino](https://neutralino.js.org) and [Svelte](https://svelte.dev). It is currently under developemment.
 
-## Using the template
-Simply use the command `neu create app_name --template OrigamingWasTaken/neutralino-svelte`
+# Installation:
 
-Then `cd` into your project and do `npm install`
+Make sure you have installed one for the supported versions (Mac, Linux, Windows)
+ _Windows is recommanded_
 
-## Running your app
+1. Download it from the [releases page](https://github.com/Communaute-Events/CELauncher/releases).
+2. Run the it.
+3. Follow the installer instructions .
 
-To run your app, use the command `npm run dev`
+# If you encounter any issues, try the following troubleshooting steps:
+- Make you sure you downloaded the right one
+- Try to run it in administator mode
+- Do you have internet ?
 
-## Building your app
+## Building
 
-Fill the `build.config.ts` file in the root of the project and run the `npm run build` command.
+To contribute, or build the projet from source, clone the repo and use the build scripts:
 
-> This will package your app for Linux, MacOS, and Windows
+```bash
+git clone https://github.com/Communaute-Events/CELauncher.git
+cd CELauncher
+npm install
+```
 
-## Replacing Svelte
+And then run `npm run build` to build, and `npm run dev` to start a dev server (with hot reloading).
 
-This template can also support Vue, React, etc... as it uses Vite. You can easily swap the frontend.
-> Q: Why would I do this instead of using another template?
-> A: Well you see, the good thing about this template is that it includes crossplatform build and package scripts. So no need to make your own.
+## Nightly Builds
+
+You can download the app from the [nightly builds](https://nightly.link/Communaute-Events/CELauncher/workflows/build/main?preview)
+
+## Additional Informations :
+- If you got the installer from somewhere other than (SpigotMc, Bukkit, Modrith or Curseforge), you will not have support
+- If you bought the installer (Wtf ??)
+- You can support here [None]
+
+_If you are still having trouble, feel free to [open an issue](https://github.com/Meekiavelique/CELauncher/issues) or contact us our [discord](https://commu.events/discord) server  for support._
